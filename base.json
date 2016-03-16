@@ -18,5 +18,14 @@
         "sudo apt-get install -y ansible"
       ]
     }
+  ],
+  "post-processors": [
+    [
+      {
+        "type": "docker-tag",
+        "repository": "massat/base",
+        "tag": "0.1"
+      }
+    ]
   ]
 }
