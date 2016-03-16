@@ -19,5 +19,5 @@ $ eval "$(docker-machine env default)"
 ## build a docker image.
 
 ```
-$ packer build example.json
+$ packer build base.json
 ```
